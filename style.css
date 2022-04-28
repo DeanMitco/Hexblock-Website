@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@1,300&display=swap');
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+	margin: 0;
+  padding: 0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+  background-color: #444;
+  
+}
+
+.flex{
+  display:flex;
+}
+
+.saffron{
+  color: rgb(255, 155, 66);
+}
+
+.blue{
+  color: #0353a4;
+}
+
+.aqua{
+  color: #55d6aa;
+}
+
+.text-center{
+  text-align: center;
+}
+
+/* index.html Navbar */
+
+header {
+  background: #55d6aa;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.container{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container{
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+.navbar{
+  width: 50%;
+  justify-content: center;
+}
+
+.logo {
+  float: left;
+  margin-left: 10%;
+  color: #fff;
+}
+
+nav{
+  display: flex;
+}
+
+nav ul{
+  list-style: none;
+  display:flex;
+}
+
+nav ul li{
+  display: flex;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0.10rem;
+  margin: 0 4rem 0 0;
+  font-size: 1.2rem;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover{
+color: #fff;
+}
+
+/* Cover */
+
+.main-cover{
+    position:relative;
+}
+
+.main-cover-img{
+    width: 100%;
+    height: auto;
+}
+
+.headline{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    font-size: 30px;
+    color: white;
+}
+/* Our team */
+
+.team{
+  padding: 0% 0 5% 0;
+  background-color: #55d6aa;
+  
+}
+
+.team-headline{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 40px;
+    padding: 4% 0 0 0;
+}
+
+.white{
+  color: white;
+}
+
+.members{
+    display: flex;
+    justify-content: center;
+}
+.member-element{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 5vw;
+  
+}
+.member-image{
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin: 3% 0 3% 0;
+}
+
+.team-name{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+}
+
+.description{
+  margin-top: 2%;
+  width: 75%;
+  text-align: center;
+}
+
+/* Abilities */
+
+.abilities{
+    width: 59%;
+    height: auto;
+    float: left;
+}
+.abilities img{
+width: 80%;
+height:auto;
+margin: 4% 14%;
+}
+
+.abilities-text{
+    width: 35%;
+    float: right;
+    border-left: 5px solid white;
+    margin-top: 8%;
+    background-color: #55d6aa;
+}
+
+.abilities-text h2{
+  text-align: center;
+  margin: -4% 14% 2% 0;
+}
+
+.about-button{
+  width: 12.5%;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  background-color: #f9423D;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin: 1% 14% 2% 38%;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.abilities-text button:hover{
+  background-color: #337AF1;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+div.abilities-text h1{
+  margin: 10% 14% 2% 0;
+  text-align: center;
+}
+
+div.abilities-text p{
+  margin: 0 20% 10% 5%;
+  font-size: 19px;
+  text-align: center;
+  display: flex;
+}
+
+/* Second Ability */
+
+.smarter{
+  width: 59%;
+  height: auto;
+  float: right;
+}
+.smarter img{
+width: 80%;
+height:auto;
+margin: 4% 0 4% 9%;
+}
+
+.abilities-smarter{
+  width: 40%;
+  float: left;
+  border-right: 5px solid white;
+  margin-top: 10%;
+  background-color: #55d6aa;
+}
+
+div.abilities-smarter h1{
+  margin: 10% 14% 2% 0;
+  text-align: center;
+}
+
+div.abilities-smarter p{
+  margin: 0 20% 10% 5%;
+  font-size: 19px;
+  text-align: center;
+  display: flex;
+}
+
+/* abilities-faster*/
+
+.faster{
+  width: 59%;
+  height: auto;
+  float: left;
+}
+.faster img{
+width: 80%;
+height:auto;
+margin: 4% 12%;
+}
+
+.abilities-faster{
+  width: 40%;
+  float: right;
+  border-left: 5px solid white;
+  margin-top: 11%;
+  background-color: #55d6aa;
+}
+
+div.abilities-faster h1{
+margin: 10% 14% 2% 0;
+text-align: center;
+}
+
+div.abilities-faster p{
+margin: 0 20% 10% 5%;
+font-size: 19px;
+text-align: center;
+display: flex;
+}
+
+/* About us HTML Page */
+
+.about-container{
+  margin-inline: auto;
+  width: min(90%, 70.5rem) /* 90% is min and 70.5rem ist max)*/
+}
+.bg-light-brown,
+.about-section{
+  padding: 3rem 0;
+}
+
+@media (min-width: 40em) {
+  .bg-light-brown,
+  .about-section {
+    padding: 7rem 0;
+  }
+}
+
+.sans-serif{
+  font-family: 'Source Serif 4', sans-serif;
+}
+
+.bg-light-brown p{
+  font-size: 1.5rem;
+}
+
+.bg-light-brown h1{
+  font-size: 3rem;
+}
+
+.bg-light-brown{
+  background-color: #a1867f;
+}
+
+.bg-aqua{
+  background-color: #4bb3fd;
+}
+
+.bg-blue{
+  background-color: #55d6aa;
+}
+
+.pictures{
+  max-width:100%;
+  height: auto;
+  display: block;
+}
+
+.bottom1{
+  margin-bottom: 1em;
+}
+
+.split{
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 40em){
+  .split{
+    flex-direction: row;
+  }
+
+  .split > * {          /* all the children of split */
+    flex-basis: 100%;   /* Setting like a width of the row */
+  }
+
+  .split > * + * {
+    margin-left: 2em;    /* Any element that has a sibling before it*/
+  }
+}
+
+/* Footer */
+
+.footer-container{
+  padding-bottom: 4rem;
+}
+
+.footer{
+  width: 100%;
+  height: 28vh;
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.footer-heading h2{
+  margin-bottom: 2rem;
+}
+
+.footer-heading a{
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover{
+  color: #55d6aa;
+  transition: 0.5s ease-out;
+}
+
+.foooter-contact-sign{
+  margin-bottom: 2rem;
+}
+
+#contact-button{
+  width: 50%;
+  height: 15%;
+  margin-left: 25%;
+  margin-top: 10%;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  background-color: #f9423D;
+  outline: none;
+  border: none;
+  color: #fff;
+}
+
+#contact-button:hover{
+  background-color: #337AF1;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.icons-a{
+  width: 1.75em;
+  height: 1.75em;
+}
+
+.icons-a1{
+  margin-top: 4rem;
+}
